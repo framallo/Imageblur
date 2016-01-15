@@ -5,11 +5,10 @@ class Image
   end
 
   def output_image
-        @image.each do |i|
-          puts i.join
-        end
+    @image.each do |i|
+      puts i.join
+    end
   end
-
 end
 
 image = Image.new([
